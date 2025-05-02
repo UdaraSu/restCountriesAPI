@@ -49,6 +49,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white dark:from-black dark:to-gray-900 text-gray-800 dark:text-white transition-colors duration-500">
       <Header />
+      {/* add searchbar */}
       <SearchBar onSearch={setSearch} />
       <Filter onFilter={setFilter} onLangFilter={setLanguage} />
 
