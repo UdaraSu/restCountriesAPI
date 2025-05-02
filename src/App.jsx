@@ -52,7 +52,7 @@ function App() {
       {/* add searchbar */}
       <SearchBar onSearch={setSearch} />
       <Filter onFilter={setFilter} onLangFilter={setLanguage} />
-
+      {/* add loading */}
       {loading ? (
         <p className="text-center text-xl text-pink-500 mt-10 dark:text-white">Loading countries...</p>
       ) : (
