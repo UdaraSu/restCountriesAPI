@@ -1,7 +1,7 @@
 function Filter({ onFilter, onLangFilter }) {
   const regions = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
   const languages = ["English", "French", "Spanish", "Arabic", "Hindi", "Chinese"];
-
+// filter by these props
   return (
     <div className="flex flex-col md:flex-row gap-4 justify-center mt-6 items-center">
       <select
